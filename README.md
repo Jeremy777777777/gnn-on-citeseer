@@ -121,6 +121,28 @@ Key observations:
 
 ---
 
+## Graph Statistics
+
+The degree distribution shows that most nodes have relatively few connections, while a small number of nodes serve as highly connected hubs.
+
+![Node Degree Distribution](figures/node_degree_distribution.png)
+
+---
+
+## Training Performance
+
+The loss curves indicate that GCN and GAT converge faster than the MLP baseline.
+
+![Loss Curve](figures/loss_curve.png)
+
+---
+
+## Learned Node Embeddings (GAT)
+
+The learned node embeddings demonstrate improved class separation after graph-based representation learning.
+
+![GAT Embedding](figures/gat_tsne.png)
+
 ## Skills Demonstrated
 
 This project demonstrates practical experience with:
